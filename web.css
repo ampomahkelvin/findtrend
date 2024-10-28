@@ -131,17 +131,20 @@
 
     .fourth-section .company-logos {
         display: grid;
+        place-items: center;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         row-gap: 32px;
         padding-left: 140px;
         padding-right: 140px;
         padding-bottom: 140px;
+        max-width: 100%;
     }
 
-    .fourth-section .company-logos .img-web {
+    /* .fourth-section .company-logos .img-web {
         width: 266px;
         height: 120px;
-    }
+
+    } */
 
 
     /* fifth section */

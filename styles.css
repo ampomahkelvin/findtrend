@@ -148,6 +148,7 @@
 
 .fourth-section .company-logos {
     display: grid;
+    place-items: center;
     grid-template-columns: 1fr 1fr;
     padding-left: 18px;
     padding-right: 18px;
@@ -189,6 +190,11 @@
     padding-right: 18px;
     overflow-x: hidden;
     padding-bottom: 32px;
+}
+
+.fifth-section .tweets img {
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .fifth-section button {
@@ -284,8 +290,8 @@
 .sixth-section .arrow-vector {
     display: flex;
     position: relative;
-    top: -90px;
-    left: 280px;
+    top: -5em;
+    left: 17em;
 }
 
 .sixth-section .arrow-vector-web {
