@@ -177,6 +177,7 @@
     padding-left: 18px;
     overflow-x: hidden;
     padding-bottom: 32px;
+    justify-content: center;
 }
 
 .fifth-section .icons img {
@@ -190,11 +191,7 @@
     padding-right: 18px;
     overflow-x: hidden;
     padding-bottom: 32px;
-}
-
-.fifth-section .tweets img {
-    margin-left: 2em;
-    margin-right: 2em;
+    justify-self: center;
 }
 
 .fifth-section button {
@@ -290,8 +287,8 @@
 .sixth-section .arrow-vector {
     display: flex;
     position: relative;
-    top: -5em;
-    left: 17em;
+    top: 40px;
+    left: 100px;
 }
 
 .sixth-section .arrow-vector-web {
